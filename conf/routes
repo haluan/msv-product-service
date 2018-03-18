@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+GET     /api/posts                  id.com.masiaveli.basic.controllers.Posts.list
+PATCH   /api/post/:id/like          id.com.masiaveli.basic.controllers.Posts.like(id: String)
+PATCH   /api/post/:id               id.com.masiaveli.basic.controllers.Posts.update(id: String)
+POST    /api/post                   id.com.masiaveli.basic.controllers.Posts.add
+DELETE  /api/post/:id               id.com.masiaveli.basic.controllers.Posts.delete(id : String)
