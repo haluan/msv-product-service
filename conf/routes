@@ -3,8 +3,5 @@
 # ~~~~
 
 
-GET     /api/posts                  id.com.masiaveli.basic.controllers.Posts.list
-PATCH   /api/post/:id/like          id.com.masiaveli.basic.controllers.Posts.like(id: String)
-PATCH   /api/post/:id               id.com.masiaveli.basic.controllers.Posts.update(id: String)
-POST    /api/post                   id.com.masiaveli.basic.controllers.Posts.add
-DELETE  /api/post/:id               id.com.masiaveli.basic.controllers.Posts.delete(id : String)
+POST    /v1/api/products               id.com.masiaveli.product.controllers.ProductController.create
+GET     /v1/api/products               id.com.masiaveli.product.controllers.ProductController.list

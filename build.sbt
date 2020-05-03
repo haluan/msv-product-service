@@ -1,4 +1,4 @@
-name := """MsvBasicService"""
+name := """MsvProductService"""
 
 version := "1.0-SNAPSHOT"
 

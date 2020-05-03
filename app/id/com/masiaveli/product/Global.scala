@@ -1,4 +1,4 @@
-package id.com.masiaveli.basic
+package id.com.masiaveli.product
 
 import javax.inject.Inject
 
